@@ -3,10 +3,9 @@
 [Reloj] Tiempo actual: 08:03
 [Reloj] Tiempo actual: 08:04
 [Reloj] Tiempo actual: 08:05
-[Recepcion] Llega: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
-[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
 [Reloj] Tiempo actual: 08:06
-[Recepcion] Llega: Paciente{Nombre=Nico, tipo=EMERGENCIA, llegada=08:06, prioridad=100, atencion=100min}
+[Recepcion] Llega: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
+[Medico 2] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
 [Reloj] Tiempo actual: 08:07
 [Reloj] Tiempo actual: 08:08
 [Reloj] Tiempo actual: 08:09
@@ -14,19 +13,18 @@
 [Recepcion] Llega: Paciente{Nombre=Dibot, tipo=URGENCIA, llegada=08:10, prioridad=8, atencion=120min}
 [Reloj] Tiempo actual: 08:11
 [Reloj] Tiempo actual: 08:12
-[Recepcion] Llega: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=100, atencion=120min}
+[Recepcion] Llega: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=118, atencion=120min}
 [Reloj] Tiempo actual: 08:13
 [Reloj] Tiempo actual: 08:14
 [Reloj] Tiempo actual: 08:15
 [Recepcion] Llega: Paciente{Nombre=Sharon, tipo=URGENCIA, llegada=08:15, prioridad=8, atencion=10min}
 [Reloj] Tiempo actual: 08:16
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Nico, tipo=EMERGENCIA, llegada=08:06, prioridad=111, atencion=100min}
 [Reloj] Tiempo actual: 08:17
 [Reloj] Tiempo actual: 08:18
 [Reloj] Tiempo actual: 08:19
-[Medico 1] Termina atención de: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
-[Medico 3] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=107, atencion=120min}
 [Reloj] Tiempo actual: 08:20
+[Medico 2] Termina atención de: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=08:04, prioridad=6, atencion=15min}
+[Medico 3] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=126, atencion=120min}
 [Reloj] Tiempo actual: 08:21
 [Reloj] Tiempo actual: 08:22
 [Reloj] Tiempo actual: 08:23
@@ -98,8 +96,8 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Nico, tipo=EMERGENCIA, llegada=
 [Reloj] Tiempo actual: 09:29
 [Reloj] Tiempo actual: 09:30
 [Recepcion] Llega: Paciente{Nombre=Gaston, tipo=GENERAL_COMUN, llegada=09:30, prioridad=6, atencion=15min}
-[Recepcion] Llega: Paciente{Nombre=Carlos, tipo=EMERGENCIA, llegada=09:30, prioridad=100, atencion=20min}
-[Recepcion] Llega: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada=09:30, prioridad=100, atencion=40min}
+[Recepcion] Llega: Paciente{Nombre=Carlos, tipo=EMERGENCIA, llegada=09:30, prioridad=118, atencion=20min}
+[Recepcion] Llega: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada=09:30, prioridad=118, atencion=40min}
 [Reloj] Tiempo actual: 09:31
 [Reloj] Tiempo actual: 09:32
 [Reloj] Tiempo actual: 09:33
@@ -110,8 +108,8 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Nico, tipo=EMERGENCIA, llegada=
 [Reloj] Tiempo actual: 09:38
 [Reloj] Tiempo actual: 09:39
 [Reloj] Tiempo actual: 09:40
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Carlos, tipo=EMERGENCIA, llegada=09:30, prioridad=111, atencion=20min}
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada=09:30, prioridad=111, atencion=40min}
+Paciente de EMERGENCIA evacuado: Paciente{Nombre=Carlos, tipo=EMERGENCIA, llegada=09:30, prioridad=129, atencion=20min}
+Paciente de EMERGENCIA evacuado: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada=09:30, prioridad=129, atencion=40min}
 [Reloj] Tiempo actual: 09:41
 [Reloj] Tiempo actual: 09:42
 [Reloj] Tiempo actual: 09:43
@@ -133,21 +131,24 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada
 [Reloj] Tiempo actual: 09:59
 [Reloj] Tiempo actual: 10:00
 [Recepcion] Llega: Paciente{Nombre=Manuela, tipo=CARNE_SALUD, llegada=10:00, prioridad=6, atencion=15min}
+Paciente URGENCIA ascendido a EMERGENCIA: Paciente{Nombre=Dibot, tipo=URGENCIA, llegada=08:10, prioridad=119, atencion=120min}
 [Reloj] Tiempo actual: 10:01
 [Recepcion] Llega: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=10:01, prioridad=6, atencion=15min}
 [Reloj] Tiempo actual: 10:02
 [Reloj] Tiempo actual: 10:03
 [Reloj] Tiempo actual: 10:04
 [Reloj] Tiempo actual: 10:05
+Paciente URGENCIA ascendido a EMERGENCIA: Paciente{Nombre=Sharon, tipo=URGENCIA, llegada=08:15, prioridad=119, atencion=10min}
 [Reloj] Tiempo actual: 10:06
 [Reloj] Tiempo actual: 10:07
 [Reloj] Tiempo actual: 10:08
 [Reloj] Tiempo actual: 10:09
-[Medico 3] Termina atención de: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=107, atencion=120min}
-[Medico 2] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Dibot, tipo=URGENCIA, llegada=08:10, prioridad=127, atencion=120min}
 [Reloj] Tiempo actual: 10:10
+Paciente de EMERGENCIA evacuado: Paciente{Nombre=Dibot, tipo=EMERGENCIA, llegada=08:10, prioridad=129, atencion=120min}
 [Reloj] Tiempo actual: 10:11
 [Reloj] Tiempo actual: 10:12
+[Medico 3] Termina atención de: Paciente{Nombre=Abdres, tipo=EMERGENCIA, llegada=08:12, prioridad=126, atencion=120min}
+[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Sharon, tipo=EMERGENCIA, llegada=08:15, prioridad=125, atencion=10min}
 [Reloj] Tiempo actual: 10:13
 [Reloj] Tiempo actual: 10:14
 [Reloj] Tiempo actual: 10:15
@@ -156,9 +157,10 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada
 [Reloj] Tiempo actual: 10:18
 [Reloj] Tiempo actual: 10:19
 [Reloj] Tiempo actual: 10:20
-[Recepcion] Llega: Paciente{Nombre=Juan, tipo=CARNE_SALUD, llegada=10:20, prioridad=6, atencion=15min}
+[Recepción] - Juan rechazado para CARNE_SALUD (sin examen odontológico)
 [Reloj] Tiempo actual: 10:21
-[Recepcion] Llega: Paciente{Nombre=Juan, tipo=CARNE_SALUD, llegada=10:20, prioridad=7, atencion=15min}
+[Medico 1] Termina atención de: Paciente{Nombre=Sharon, tipo=EMERGENCIA, llegada=08:15, prioridad=125, atencion=10min}
+[Medico 2] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Gaston, tipo=GENERAL_COMUN, llegada=09:30, prioridad=57, atencion=15min}
 [Reloj] Tiempo actual: 10:22
 [Reloj] Tiempo actual: 10:23
 [Reloj] Tiempo actual: 10:24
@@ -168,24 +170,27 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Pedro, tipo=EMERGENCIA, llegada
 [Reloj] Tiempo actual: 10:28
 [Reloj] Tiempo actual: 10:29
 [Reloj] Tiempo actual: 10:30
-[Recepcion] Llega: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, llegada=10:30, prioridad=100, atencion=10min}
+[Recepcion] Llega: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, llegada=10:30, prioridad=118, atencion=10min}
 [Reloj] Tiempo actual: 10:31
 [Reloj] Tiempo actual: 10:32
 [Reloj] Tiempo actual: 10:33
 [Reloj] Tiempo actual: 10:34
 [Reloj] Tiempo actual: 10:35
+[Medico 2] Termina atención de: Paciente{Nombre=Gaston, tipo=GENERAL_COMUN, llegada=09:30, prioridad=57, atencion=15min}
+[Medico 3] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, llegada=10:30, prioridad=123, atencion=10min}
 [Reloj] Tiempo actual: 10:36
 [Reloj] Tiempo actual: 10:37
 [Reloj] Tiempo actual: 10:38
 [Reloj] Tiempo actual: 10:39
 [Reloj] Tiempo actual: 10:40
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, llegada=10:30, prioridad=111, atencion=10min}
 [Reloj] Tiempo actual: 10:41
 [Reloj] Tiempo actual: 10:42
 [Reloj] Tiempo actual: 10:43
 [Reloj] Tiempo actual: 10:44
 [Reloj] Tiempo actual: 10:45
-[Recepcion] Llega: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada=10:45, prioridad=100, atencion=10min}
+[Recepcion] Llega: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada=10:45, prioridad=118, atencion=10min}
+[Medico 3] Termina atención de: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, llegada=10:30, prioridad=123, atencion=10min}
+[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada=10:45, prioridad=118, atencion=10min}
 [Reloj] Tiempo actual: 10:46
 [Reloj] Tiempo actual: 10:47
 [Reloj] Tiempo actual: 10:48
@@ -196,7 +201,8 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Emiliano, tipo=EMERGENCIA, lleg
 [Reloj] Tiempo actual: 10:53
 [Reloj] Tiempo actual: 10:54
 [Reloj] Tiempo actual: 10:55
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada=10:45, prioridad=111, atencion=10min}
+[Medico 1] Termina atención de: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada=10:45, prioridad=118, atencion=10min}
+[Medico 2] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Manuela, tipo=CARNE_SALUD, llegada=10:00, prioridad=61, atencion=15min}
 [Reloj] Tiempo actual: 10:56
 [Reloj] Tiempo actual: 10:57
 [Reloj] Tiempo actual: 10:58
@@ -204,25 +210,24 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Abril, tipo=EMERGENCIA, llegada
 [Reloj] Tiempo actual: 11:00
 [Reloj] Tiempo actual: 11:01
 [Reloj] Tiempo actual: 11:02
-Paciente con CARNÉ DE SALUD abandonó el centro: Paciente{Nombre=Juan, tipo=CARNE_SALUD, llegada=10:20, prioridad=91, atencion=15min}
 [Reloj] Tiempo actual: 11:03
-Paciente con CARNÉ DE SALUD abandonó el centro: Paciente{Nombre=Juan, tipo=CARNE_SALUD, llegada=10:20, prioridad=92, atencion=15min}
 [Reloj] Tiempo actual: 11:04
-Paciente GENERAL ascendido a EMERGENCIA: Paciente{Nombre=Gaston, tipo=GENERAL_COMUN, llegada=09:30, prioridad=101, atencion=15min}
 [Reloj] Tiempo actual: 11:05
 [Reloj] Tiempo actual: 11:06
 [Reloj] Tiempo actual: 11:07
 [Reloj] Tiempo actual: 11:08
 [Reloj] Tiempo actual: 11:09
+[Medico 2] Termina atención de: Paciente{Nombre=Manuela, tipo=CARNE_SALUD, llegada=10:00, prioridad=61, atencion=15min}
+[Medico 3] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=10:01, prioridad=74, atencion=15min}
 [Reloj] Tiempo actual: 11:10
 [Reloj] Tiempo actual: 11:11
 [Reloj] Tiempo actual: 11:12
 [Reloj] Tiempo actual: 11:13
 [Reloj] Tiempo actual: 11:14
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Gaston, tipo=EMERGENCIA, llegada=09:30, prioridad=111, atencion=15min}
 [Reloj] Tiempo actual: 11:15
 [Recepcion] Llega: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=6, atencion=15min}
 [Reloj] Tiempo actual: 11:16
+[Recepcion] Llega: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=7, atencion=15min}
 [Reloj] Tiempo actual: 11:17
 [Reloj] Tiempo actual: 11:18
 [Reloj] Tiempo actual: 11:19
@@ -230,8 +235,9 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Gaston, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 11:21
 [Reloj] Tiempo actual: 11:22
 [Reloj] Tiempo actual: 11:23
+[Medico 3] Termina atención de: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=10:01, prioridad=74, atencion=15min}
+[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=21, atencion=15min}
 [Reloj] Tiempo actual: 11:24
-Paciente con CARNÉ DE SALUD abandonó el centro: Paciente{Nombre=Manuela, tipo=CARNE_SALUD, llegada=10:00, prioridad=91, atencion=15min}
 [Reloj] Tiempo actual: 11:25
 [Reloj] Tiempo actual: 11:26
 [Reloj] Tiempo actual: 11:27
@@ -243,9 +249,9 @@ Paciente con CARNÉ DE SALUD abandonó el centro: Paciente{Nombre=Manuela, tipo=
 [Reloj] Tiempo actual: 11:33
 [Reloj] Tiempo actual: 11:34
 [Reloj] Tiempo actual: 11:35
-Paciente GENERAL ascendido a EMERGENCIA: Paciente{Nombre=Manuel, tipo=GENERAL_COMUN, llegada=10:01, prioridad=101, atencion=15min}
 [Reloj] Tiempo actual: 11:36
 [Reloj] Tiempo actual: 11:37
+[Medico 1] Termina atención de: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=35, atencion=15min}
 [Reloj] Tiempo actual: 11:38
 [Reloj] Tiempo actual: 11:39
 [Reloj] Tiempo actual: 11:40
@@ -254,7 +260,6 @@ Paciente GENERAL ascendido a EMERGENCIA: Paciente{Nombre=Manuel, tipo=GENERAL_CO
 [Reloj] Tiempo actual: 11:43
 [Reloj] Tiempo actual: 11:44
 [Reloj] Tiempo actual: 11:45
-Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegada=10:01, prioridad=111, atencion=15min}
 [Reloj] Tiempo actual: 11:46
 [Reloj] Tiempo actual: 11:47
 [Reloj] Tiempo actual: 11:48
@@ -270,8 +275,6 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 11:58
 [Reloj] Tiempo actual: 11:59
 [Reloj] Tiempo actual: 12:00
-[Medico 2] Termina atención de: Paciente{Nombre=Dibot, tipo=URGENCIA, llegada=08:10, prioridad=127, atencion=120min}
-[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Sharon, tipo=URGENCIA, llegada=08:15, prioridad=233, atencion=10min}
 [Reloj] Tiempo actual: 12:01
 [Reloj] Tiempo actual: 12:02
 [Reloj] Tiempo actual: 12:03
@@ -282,15 +285,14 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 12:08
 [Reloj] Tiempo actual: 12:09
 [Reloj] Tiempo actual: 12:10
-[Medico 1] Termina atención de: Paciente{Nombre=Sharon, tipo=URGENCIA, llegada=08:15, prioridad=233, atencion=10min}
-[Medico 3] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=61, atencion=15min}
 [Reloj] Tiempo actual: 12:11
 [Reloj] Tiempo actual: 12:12
 [Reloj] Tiempo actual: 12:13
 [Reloj] Tiempo actual: 12:14
 [Reloj] Tiempo actual: 12:15
-[Recepcion] Llega: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=100, atencion=15min}
+[Recepcion] Llega: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=118, atencion=15min}
 [Reloj] Tiempo actual: 12:16
+[Medico 1] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=119, atencion=15min}
 [Reloj] Tiempo actual: 12:17
 [Reloj] Tiempo actual: 12:18
 [Reloj] Tiempo actual: 12:19
@@ -299,14 +301,13 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 12:22
 [Reloj] Tiempo actual: 12:23
 [Reloj] Tiempo actual: 12:24
-[Medico 3] Termina atención de: Paciente{Nombre=Sol, tipo=GENERAL_COMUN, llegada=11:15, prioridad=61, atencion=15min}
-[Medico 2] Enfermero disponible, selecciona y atiende a: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=109, atencion=15min}
 [Reloj] Tiempo actual: 12:25
 [Reloj] Tiempo actual: 12:26
 [Reloj] Tiempo actual: 12:27
 [Reloj] Tiempo actual: 12:28
 [Reloj] Tiempo actual: 12:29
 [Reloj] Tiempo actual: 12:30
+[Medico 1] Termina atención de: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=119, atencion=15min}
 [Reloj] Tiempo actual: 12:31
 [Reloj] Tiempo actual: 12:32
 [Reloj] Tiempo actual: 12:33
@@ -315,7 +316,6 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 12:36
 [Reloj] Tiempo actual: 12:37
 [Reloj] Tiempo actual: 12:38
-[Medico 2] Termina atención de: Paciente{Nombre=Echagüe, tipo=EMERGENCIA, llegada=12:15, prioridad=109, atencion=15min}
 [Reloj] Tiempo actual: 12:39
 [Reloj] Tiempo actual: 12:40
 [Reloj] Tiempo actual: 12:41
@@ -450,311 +450,3 @@ Paciente de EMERGENCIA evacuado: Paciente{Nombre=Manuel, tipo=EMERGENCIA, llegad
 [Reloj] Tiempo actual: 14:50
 [Reloj] Tiempo actual: 14:51
 [Reloj] Tiempo actual: 14:52
-[Reloj] Tiempo actual: 14:53
-[Reloj] Tiempo actual: 14:54
-[Reloj] Tiempo actual: 14:55
-[Reloj] Tiempo actual: 14:56
-[Reloj] Tiempo actual: 14:57
-[Reloj] Tiempo actual: 14:58
-[Reloj] Tiempo actual: 14:59
-[Reloj] Tiempo actual: 15:00
-[Reloj] Tiempo actual: 15:01
-[Reloj] Tiempo actual: 15:02
-[Reloj] Tiempo actual: 15:03
-[Reloj] Tiempo actual: 15:04
-[Reloj] Tiempo actual: 15:05
-[Reloj] Tiempo actual: 15:06
-[Reloj] Tiempo actual: 15:07
-[Reloj] Tiempo actual: 15:08
-[Reloj] Tiempo actual: 15:09
-[Reloj] Tiempo actual: 15:10
-[Reloj] Tiempo actual: 15:11
-[Reloj] Tiempo actual: 15:12
-[Reloj] Tiempo actual: 15:13
-[Reloj] Tiempo actual: 15:14
-[Reloj] Tiempo actual: 15:15
-[Reloj] Tiempo actual: 15:16
-[Reloj] Tiempo actual: 15:17
-[Reloj] Tiempo actual: 15:18
-[Reloj] Tiempo actual: 15:19
-[Reloj] Tiempo actual: 15:20
-[Reloj] Tiempo actual: 15:21
-[Reloj] Tiempo actual: 15:22
-[Reloj] Tiempo actual: 15:23
-[Reloj] Tiempo actual: 15:24
-[Reloj] Tiempo actual: 15:25
-[Reloj] Tiempo actual: 15:26
-[Reloj] Tiempo actual: 15:27
-[Reloj] Tiempo actual: 15:28
-[Reloj] Tiempo actual: 15:29
-[Reloj] Tiempo actual: 15:30
-[Reloj] Tiempo actual: 15:31
-[Reloj] Tiempo actual: 15:32
-[Reloj] Tiempo actual: 15:33
-[Reloj] Tiempo actual: 15:34
-[Reloj] Tiempo actual: 15:35
-[Reloj] Tiempo actual: 15:36
-[Reloj] Tiempo actual: 15:37
-[Reloj] Tiempo actual: 15:38
-[Reloj] Tiempo actual: 15:39
-[Reloj] Tiempo actual: 15:40
-[Reloj] Tiempo actual: 15:41
-[Reloj] Tiempo actual: 15:42
-[Reloj] Tiempo actual: 15:43
-[Reloj] Tiempo actual: 15:44
-[Reloj] Tiempo actual: 15:45
-[Reloj] Tiempo actual: 15:46
-[Reloj] Tiempo actual: 15:47
-[Reloj] Tiempo actual: 15:48
-[Reloj] Tiempo actual: 15:49
-[Reloj] Tiempo actual: 15:50
-[Reloj] Tiempo actual: 15:51
-[Reloj] Tiempo actual: 15:52
-[Reloj] Tiempo actual: 15:53
-[Reloj] Tiempo actual: 15:54
-[Reloj] Tiempo actual: 15:55
-[Reloj] Tiempo actual: 15:56
-[Reloj] Tiempo actual: 15:57
-[Reloj] Tiempo actual: 15:58
-[Reloj] Tiempo actual: 15:59
-[Reloj] Tiempo actual: 16:00
-[Reloj] Tiempo actual: 16:01
-[Reloj] Tiempo actual: 16:02
-[Reloj] Tiempo actual: 16:03
-[Reloj] Tiempo actual: 16:04
-[Reloj] Tiempo actual: 16:05
-[Reloj] Tiempo actual: 16:06
-[Reloj] Tiempo actual: 16:07
-[Reloj] Tiempo actual: 16:08
-[Reloj] Tiempo actual: 16:09
-[Reloj] Tiempo actual: 16:10
-[Reloj] Tiempo actual: 16:11
-[Reloj] Tiempo actual: 16:12
-[Reloj] Tiempo actual: 16:13
-[Reloj] Tiempo actual: 16:14
-[Reloj] Tiempo actual: 16:15
-[Reloj] Tiempo actual: 16:16
-[Reloj] Tiempo actual: 16:17
-[Reloj] Tiempo actual: 16:18
-[Reloj] Tiempo actual: 16:19
-[Reloj] Tiempo actual: 16:20
-[Reloj] Tiempo actual: 16:21
-[Reloj] Tiempo actual: 16:22
-[Reloj] Tiempo actual: 16:23
-[Reloj] Tiempo actual: 16:24
-[Reloj] Tiempo actual: 16:25
-[Reloj] Tiempo actual: 16:26
-[Reloj] Tiempo actual: 16:27
-[Reloj] Tiempo actual: 16:28
-[Reloj] Tiempo actual: 16:29
-[Reloj] Tiempo actual: 16:30
-[Reloj] Tiempo actual: 16:31
-[Reloj] Tiempo actual: 16:32
-[Reloj] Tiempo actual: 16:33
-[Reloj] Tiempo actual: 16:34
-[Reloj] Tiempo actual: 16:35
-[Reloj] Tiempo actual: 16:36
-[Reloj] Tiempo actual: 16:37
-[Reloj] Tiempo actual: 16:38
-[Reloj] Tiempo actual: 16:39
-[Reloj] Tiempo actual: 16:40
-[Reloj] Tiempo actual: 16:41
-[Reloj] Tiempo actual: 16:42
-[Reloj] Tiempo actual: 16:43
-[Reloj] Tiempo actual: 16:44
-[Reloj] Tiempo actual: 16:45
-[Reloj] Tiempo actual: 16:46
-[Reloj] Tiempo actual: 16:47
-[Reloj] Tiempo actual: 16:48
-[Reloj] Tiempo actual: 16:49
-[Reloj] Tiempo actual: 16:50
-[Reloj] Tiempo actual: 16:51
-[Reloj] Tiempo actual: 16:52
-[Reloj] Tiempo actual: 16:53
-[Reloj] Tiempo actual: 16:54
-[Reloj] Tiempo actual: 16:55
-[Reloj] Tiempo actual: 16:56
-[Reloj] Tiempo actual: 16:57
-[Reloj] Tiempo actual: 16:58
-[Reloj] Tiempo actual: 16:59
-[Reloj] Tiempo actual: 17:00
-[Reloj] Tiempo actual: 17:01
-[Reloj] Tiempo actual: 17:02
-[Reloj] Tiempo actual: 17:03
-[Reloj] Tiempo actual: 17:04
-[Reloj] Tiempo actual: 17:05
-[Reloj] Tiempo actual: 17:06
-[Reloj] Tiempo actual: 17:07
-[Reloj] Tiempo actual: 17:08
-[Reloj] Tiempo actual: 17:09
-[Reloj] Tiempo actual: 17:10
-[Reloj] Tiempo actual: 17:11
-[Reloj] Tiempo actual: 17:12
-[Reloj] Tiempo actual: 17:13
-[Reloj] Tiempo actual: 17:14
-[Reloj] Tiempo actual: 17:15
-[Reloj] Tiempo actual: 17:16
-[Reloj] Tiempo actual: 17:17
-[Reloj] Tiempo actual: 17:18
-[Reloj] Tiempo actual: 17:19
-[Reloj] Tiempo actual: 17:20
-[Reloj] Tiempo actual: 17:21
-[Reloj] Tiempo actual: 17:22
-[Reloj] Tiempo actual: 17:23
-[Reloj] Tiempo actual: 17:24
-[Reloj] Tiempo actual: 17:25
-[Reloj] Tiempo actual: 17:26
-[Reloj] Tiempo actual: 17:27
-[Reloj] Tiempo actual: 17:28
-[Reloj] Tiempo actual: 17:29
-[Reloj] Tiempo actual: 17:30
-[Reloj] Tiempo actual: 17:31
-[Reloj] Tiempo actual: 17:32
-[Reloj] Tiempo actual: 17:33
-[Reloj] Tiempo actual: 17:34
-[Reloj] Tiempo actual: 17:35
-[Reloj] Tiempo actual: 17:36
-[Reloj] Tiempo actual: 17:37
-[Reloj] Tiempo actual: 17:38
-[Reloj] Tiempo actual: 17:39
-[Reloj] Tiempo actual: 17:40
-[Reloj] Tiempo actual: 17:41
-[Reloj] Tiempo actual: 17:42
-[Reloj] Tiempo actual: 17:43
-[Reloj] Tiempo actual: 17:44
-[Reloj] Tiempo actual: 17:45
-[Reloj] Tiempo actual: 17:46
-[Reloj] Tiempo actual: 17:47
-[Reloj] Tiempo actual: 17:48
-[Reloj] Tiempo actual: 17:49
-[Reloj] Tiempo actual: 17:50
-[Reloj] Tiempo actual: 17:51
-[Reloj] Tiempo actual: 17:52
-[Reloj] Tiempo actual: 17:53
-[Reloj] Tiempo actual: 17:54
-[Reloj] Tiempo actual: 17:55
-[Reloj] Tiempo actual: 17:56
-[Reloj] Tiempo actual: 17:57
-[Reloj] Tiempo actual: 17:58
-[Reloj] Tiempo actual: 17:59
-[Reloj] Tiempo actual: 18:00
-[Reloj] Tiempo actual: 18:01
-[Reloj] Tiempo actual: 18:02
-[Reloj] Tiempo actual: 18:03
-[Reloj] Tiempo actual: 18:04
-[Reloj] Tiempo actual: 18:05
-[Reloj] Tiempo actual: 18:06
-[Reloj] Tiempo actual: 18:07
-[Reloj] Tiempo actual: 18:08
-[Reloj] Tiempo actual: 18:09
-[Reloj] Tiempo actual: 18:10
-[Reloj] Tiempo actual: 18:11
-[Reloj] Tiempo actual: 18:12
-[Reloj] Tiempo actual: 18:13
-[Reloj] Tiempo actual: 18:14
-[Reloj] Tiempo actual: 18:15
-[Reloj] Tiempo actual: 18:16
-[Reloj] Tiempo actual: 18:17
-[Reloj] Tiempo actual: 18:18
-[Reloj] Tiempo actual: 18:19
-[Reloj] Tiempo actual: 18:20
-[Reloj] Tiempo actual: 18:21
-[Reloj] Tiempo actual: 18:22
-[Reloj] Tiempo actual: 18:23
-[Reloj] Tiempo actual: 18:24
-[Reloj] Tiempo actual: 18:25
-[Reloj] Tiempo actual: 18:26
-[Reloj] Tiempo actual: 18:27
-[Reloj] Tiempo actual: 18:28
-[Reloj] Tiempo actual: 18:29
-[Reloj] Tiempo actual: 18:30
-[Reloj] Tiempo actual: 18:31
-[Reloj] Tiempo actual: 18:32
-[Reloj] Tiempo actual: 18:33
-[Reloj] Tiempo actual: 18:34
-[Reloj] Tiempo actual: 18:35
-[Reloj] Tiempo actual: 18:36
-[Reloj] Tiempo actual: 18:37
-[Reloj] Tiempo actual: 18:38
-[Reloj] Tiempo actual: 18:39
-[Reloj] Tiempo actual: 18:40
-[Reloj] Tiempo actual: 18:41
-[Reloj] Tiempo actual: 18:42
-[Reloj] Tiempo actual: 18:43
-[Reloj] Tiempo actual: 18:44
-[Reloj] Tiempo actual: 18:45
-[Reloj] Tiempo actual: 18:46
-[Reloj] Tiempo actual: 18:47
-[Reloj] Tiempo actual: 18:48
-[Reloj] Tiempo actual: 18:49
-[Reloj] Tiempo actual: 18:50
-[Reloj] Tiempo actual: 18:51
-[Reloj] Tiempo actual: 18:52
-[Reloj] Tiempo actual: 18:53
-[Reloj] Tiempo actual: 18:54
-[Reloj] Tiempo actual: 18:55
-[Reloj] Tiempo actual: 18:56
-[Reloj] Tiempo actual: 18:57
-[Reloj] Tiempo actual: 18:58
-[Reloj] Tiempo actual: 18:59
-[Reloj] Tiempo actual: 19:00
-[Reloj] Tiempo actual: 19:01
-[Reloj] Tiempo actual: 19:02
-[Reloj] Tiempo actual: 19:03
-[Reloj] Tiempo actual: 19:04
-[Reloj] Tiempo actual: 19:05
-[Reloj] Tiempo actual: 19:06
-[Reloj] Tiempo actual: 19:07
-[Reloj] Tiempo actual: 19:08
-[Reloj] Tiempo actual: 19:09
-[Reloj] Tiempo actual: 19:10
-[Reloj] Tiempo actual: 19:11
-[Reloj] Tiempo actual: 19:12
-[Reloj] Tiempo actual: 19:13
-[Reloj] Tiempo actual: 19:14
-[Reloj] Tiempo actual: 19:15
-[Reloj] Tiempo actual: 19:16
-[Reloj] Tiempo actual: 19:17
-[Reloj] Tiempo actual: 19:18
-[Reloj] Tiempo actual: 19:19
-[Reloj] Tiempo actual: 19:20
-[Reloj] Tiempo actual: 19:21
-[Reloj] Tiempo actual: 19:22
-[Reloj] Tiempo actual: 19:23
-[Reloj] Tiempo actual: 19:24
-[Reloj] Tiempo actual: 19:25
-[Reloj] Tiempo actual: 19:26
-[Reloj] Tiempo actual: 19:27
-[Reloj] Tiempo actual: 19:28
-[Reloj] Tiempo actual: 19:29
-[Reloj] Tiempo actual: 19:30
-[Reloj] Tiempo actual: 19:31
-[Reloj] Tiempo actual: 19:32
-[Reloj] Tiempo actual: 19:33
-[Reloj] Tiempo actual: 19:34
-[Reloj] Tiempo actual: 19:35
-[Reloj] Tiempo actual: 19:36
-[Reloj] Tiempo actual: 19:37
-[Reloj] Tiempo actual: 19:38
-[Reloj] Tiempo actual: 19:39
-[Reloj] Tiempo actual: 19:40
-[Reloj] Tiempo actual: 19:41
-[Reloj] Tiempo actual: 19:42
-[Reloj] Tiempo actual: 19:43
-[Reloj] Tiempo actual: 19:44
-[Reloj] Tiempo actual: 19:45
-[Reloj] Tiempo actual: 19:46
-[Reloj] Tiempo actual: 19:47
-[Reloj] Tiempo actual: 19:48
-[Reloj] Tiempo actual: 19:49
-[Reloj] Tiempo actual: 19:50
-[Reloj] Tiempo actual: 19:51
-[Reloj] Tiempo actual: 19:52
-[Reloj] Tiempo actual: 19:53
-[Reloj] Tiempo actual: 19:54
-[Reloj] Tiempo actual: 19:55
-[Reloj] Tiempo actual: 19:56
-[Reloj] Tiempo actual: 19:57
-[Reloj] Tiempo actual: 19:58
-[Reloj] Tiempo actual: 19:59
-[Reloj] Tiempo actual: 20:00

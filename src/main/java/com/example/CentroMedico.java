@@ -106,22 +106,29 @@ public synchronized Tiempo getTiempoActual() {
 
         switch (p.getTipo()) {
             case EMERGENCIA:
-                if (p.getPrioridad() > 110) {
+                if (p.getPrioridad() > 128) {
                     log("Paciente de EMERGENCIA evacuado: " + p);
                     removerPaciente(p);
                     // evacuados.add(p); // opcional
                 }
                 break;
-            case GENERAL_COMUN:
-                if (p.getPrioridad() > 100) { // luego de  1 hora y media pasa a ser de tipo emergencia 
-                    log("Paciente GENERAL ascendido a EMERGENCIA: " + p);
+            case URGENCIA:
+                if (p.getPrioridad() > 118) { // luego de  1 hora y 50 pasa a ser de tipo emergencia 
+                    log("Paciente URGENCIA ascendido a EMERGENCIA: " + p);
                     p.setTipo(Paciente.Tipo.EMERGENCIA);
                     // promovidos.add(p); // opcional
                 }
                 break;
             case CARNE_SALUD:
-                if (p.getPrioridad() > 180) { // a las 3 horas se va del centro si no fue atendido
-                    log("Paciente con CARNÉ DE SALUD abandonó el centro: " + p);
+                if (p.getPrioridad() > 186) { // a las 3 horas se va del centro si no fue atendido (6x 3 = 180 + 6) (priori inicial))
+                    log("Paciente por tramite de CARNÉ DE SALUD abandonó el centro luego de esperar durante 3 horas: " + p);
+                    removerPaciente(p);
+                    // abandonos.add(p); // opcional
+                }
+                break;
+            case GENERAL_COMUN:
+                if (p.getPrioridad() > 186) { // a las 3 horas se va del centro si no fue atendido
+                    log("Paciente GENERAL abandonó el centro luego de esperar durante 3 horas: " + p);
                     removerPaciente(p);
                     // abandonos.add(p); // opcional
                 }

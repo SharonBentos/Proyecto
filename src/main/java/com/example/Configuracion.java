@@ -33,9 +33,10 @@ public class Configuracion {
                 int hora = Integer.parseInt(horaMinuto[0]);
                 int minuto = Integer.parseInt(horaMinuto[1]);
                 int tiempoAtencion = Integer.parseInt(partes[3]);
+                boolean tieneExamenOdontologico = Boolean.parseBoolean(partes[4]);
 
                 Tiempo llegada = new Tiempo(hora, minuto);
-                Paciente p = new Paciente(nombre, tipo, llegada, tiempoAtencion);
+                Paciente p = new Paciente(nombre, tipo, llegada, tiempoAtencion, tieneExamenOdontologico);
 
                 int tiempoEnMinutos = llegada.minutosTotales();
                 agenda.putIfAbsent(tiempoEnMinutos, new ArrayList<>());

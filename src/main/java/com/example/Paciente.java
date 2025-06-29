@@ -10,18 +10,20 @@ public class Paciente {
     private final Tiempo tiempoLlegada;
     private final int duracionAtencion;
     private int prioridad;
+    public final boolean tieneExamenOdontologico;
 
-    public Paciente(String nombre, Tipo tipo, Tiempo tiempoLlegada, int duracionAtencion) {
+    public Paciente(String nombre, Tipo tipo, Tiempo tiempoLlegada, int duracionAtencion, boolean examenOdontologico) {
         this.nombre = nombre;
         this.tipo = tipo;
         this.tiempoLlegada = tiempoLlegada;
         this.duracionAtencion = duracionAtencion;
         this.prioridad = calcularPrioridadBase(tipo);
+        this.tieneExamenOdontologico = examenOdontologico;
     }
 
     private int calcularPrioridadBase(Tipo tipo) {
         return switch (tipo) {
-            case EMERGENCIA -> 100;
+            case EMERGENCIA -> 118;
             case URGENCIA -> 8;
             case CARNE_SALUD, GENERAL_COMUN -> 6;
         };

@@ -18,8 +18,14 @@ public class Recepcionista implements Runnable {
             }
             List<Paciente> llegadas = centro.obtenerLlegadasActuales();
             for (Paciente p : llegadas) {
-                centro.agregarPaciente(p);
+            if (p.getTipo() == Paciente.Tipo.CARNE_SALUD) {
+                if (!p.tieneExamenOdontologico) {
+                    centro.log("[Recepción] - " + p.getNombre() + " rechazado para CARNE_SALUD (sin examen odontológico)");
+                    continue; // no se agrega
+                }
             }
+            centro.agregarPaciente(p); // se agrega normalmente
+        }
         }
     }
 }

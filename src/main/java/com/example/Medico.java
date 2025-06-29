@@ -54,9 +54,8 @@ public void run() {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    }//
+    }
 }
-
 
     private boolean tienePacientesPendientes() {
         synchronized (centro) {
